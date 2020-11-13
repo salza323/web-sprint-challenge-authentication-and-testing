@@ -20,19 +20,27 @@ Implement an User Authentication System. Hash user's passwords before saving the
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
 
+<!-- -------------------------------------------------------------- -->
+
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+<!-- Tokens live on the client side app and sessions live on the server side. Server has complete control of the session and it is up to the client to delete the token to deny access to data.  -->
 
 2. What does `bcrypt` do to help us store passwords in a secure manner.
+<!-- Hashs passwords.  -->
 
 3. How are unit tests different from integration and end-to-end testing.
+<!-- Unit tests test the smallest unit of code possible as opposed to integration that tests "the big picture".  -->
 
 4. How _Test Driven Development_ changes the way we write applications and tests.
+<!-- TDD conventions dictate that the tests are written first and that the code is written after.  -->
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+
+<!-- ___________________________________________________________________ -->
 
 ## Instructions
 
